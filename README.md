@@ -12,15 +12,18 @@ Nossa aplicação utiliza a plataforma Node-Red para orquestrar os serviços lis
 * Node-Red -> [Crie aqui](https://console.bluemix.net/catalog/starters/node-red-starter)
 
 #### 2.Importar arquivo node-red.json na sua aplicação Node-Red:
-
+Copie o código deste [link](https://raw.githubusercontent.com/pedrohlcastro/workshop-nlu/master/node-red.json) e cole:
+[edit_alt](https://raw.githubusercontent.com/pedrohlcastro/workshop-nlu/master/img/editar-params.png)
+<img src='https://raw.githubusercontent.com/pedrohlcastro/workshop-nlu/master/img/editar-params.png'/>
 
 Após importar o `node-red.json` você ira ver o seguinte fluxo:
-
+<img src='https://raw.githubusercontent.com/pedrohlcastro/workshop-nlu/master/img/img-fluxo.png'/>
 
 #### 3.Colocar credenciais do serviço de Natural Language Understanding no Node-Red:
-
+<img src='https://raw.githubusercontent.com/pedrohlcastro/workshop-nlu/master/img/editar-params.png'/>
 
 #### 4. Use o link atual /nlu para realizar testes:
+<img src='https://raw.githubusercontent.com/pedrohlcastro/workshop-nlu/master/img/pagina.png' />
 
 
 ### Aprendendo WKS e ligando com NLU
