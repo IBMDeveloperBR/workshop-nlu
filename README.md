@@ -14,7 +14,7 @@ Nossa aplicação utiliza a plataforma Node-Red para orquestrar os serviços lis
 #### 2.Importar arquivo node-red.json na sua aplicação Node-Red:
 Copie o código deste [link](https://raw.githubusercontent.com/pedrohlcastro/workshop-nlu/master/node-red.json) e cole:
 <br>
-<img src='https://raw.githubusercontent.com/pedrohlcastro/workshop-nlu/master/img/editar-params.png'/>
+<img src='https://raw.githubusercontent.com/pedrohlcastro/workshop-nlu/master/img/import.png'/>
 
 Após importar o `node-red.json` você ira ver o seguinte fluxo:
 <br>
