@@ -26,6 +26,12 @@ Após importar o `node-red.json` você ira ver o seguinte fluxo:
 #### 4. Use o link atual /nlu para realizar testes:
 <img src='https://raw.githubusercontent.com/pedrohlcastro/workshop-nlu/master/img/pagina.png' />
 
+#### 5. Gerando seu Custom Model ID:
+* Crie o serviço Watson Knowledge Studio -> [Crie Aqui](https://console.bluemix.net/catalog/services/knowledge-studio)
+* Treine seu modelo usando os arquivos dentro da pasta `Treinamento WKS/`.
+* Faça o deploy do modelo.
+* Copie seu ID e cole no campo de `Custom Model Id` da aplicação.
+
 
 ### Aprendendo WKS e ligando com NLU
 Você pode utilizar o seguinte link para aprender ou repetir o processo feito durante o workshop [Clique aqui](https://developer.ibm.com/tutorials/extracting-personal-data-from-unstructured-text-using-watson-knowledge-studio/).
