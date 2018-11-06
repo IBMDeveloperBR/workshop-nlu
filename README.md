@@ -3,10 +3,25 @@
 ### Serviços utilizados:
 * [Watson Natural Language Understanding](https://www.ibm.com/watson/services/natural-language-understanding/)
 * [Watson Knowledge Studio](https://www.ibm.com/watson/services/knowledge-studio/)
-* Aplicação Node-red
+* Aplicação Node-Red
 
 ### Deploy da aplicação usando Node-Red
 Nossa aplicação utiliza a plataforma Node-Red para orquestrar os serviços listados acima. Para realizar o deploy siga os passos:
+#### 1.Criar serviços:
+* Watson Natural Language Understanding -> [Crie aqui](https://console.bluemix.net/catalog/services/natural-language-understanding)
+* Node-Red -> [Crie aqui](https://console.bluemix.net/catalog/starters/node-red-starter)
+
+#### 2.Importar arquivo node-red.json na sua aplicação Node-Red:
+
+
+Após importar o `node-red.json` você ira ver o seguinte fluxo:
+
+
+#### 3.Colocar credenciais do serviço de Natural Language Understanding no Node-Red:
+
+
+#### 4. Use o link atual /nlu para realizar testes:
+
 
 ### Aprendendo WKS e ligando com NLU
 Você pode utilizar o seguinte link para aprender ou repetir o processo feito durante o workshop [Clique aqui](https://developer.ibm.com/tutorials/extracting-personal-data-from-unstructured-text-using-watson-knowledge-studio/).
