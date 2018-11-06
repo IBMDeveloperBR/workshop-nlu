@@ -13,10 +13,11 @@ Nossa aplicação utiliza a plataforma Node-Red para orquestrar os serviços lis
 
 #### 2.Importar arquivo node-red.json na sua aplicação Node-Red:
 Copie o código deste [link](https://raw.githubusercontent.com/pedrohlcastro/workshop-nlu/master/node-red.json) e cole:
-[edit_alt](https://raw.githubusercontent.com/pedrohlcastro/workshop-nlu/master/img/editar-params.png)
+<br>
 <img src='https://raw.githubusercontent.com/pedrohlcastro/workshop-nlu/master/img/editar-params.png'/>
 
 Após importar o `node-red.json` você ira ver o seguinte fluxo:
+<br>
 <img src='https://raw.githubusercontent.com/pedrohlcastro/workshop-nlu/master/img/img-fluxo.png'/>
 
 #### 3.Colocar credenciais do serviço de Natural Language Understanding no Node-Red:
