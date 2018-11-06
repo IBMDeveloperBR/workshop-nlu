@@ -12,7 +12,7 @@ Nossa aplicação utiliza a plataforma Node-Red para orquestrar os serviços lis
 * Node-Red -> [Crie aqui](https://console.bluemix.net/catalog/starters/node-red-starter)
 
 #### 2.Importar arquivo node-red.json na sua aplicação Node-Red:
-Copie o código deste [link](https://raw.githubusercontent.com/pedrohlcastro/workshop-nlu/master/node-red.json) e cole:
+Copie o código deste [link](https://raw.githubusercontent.com/pedrohlcastro/workshop-nlu/master/node-red.json) e cole em clipboard:
 <br>
 <img src='https://raw.githubusercontent.com/pedrohlcastro/workshop-nlu/master/img/import.png'/>
 
