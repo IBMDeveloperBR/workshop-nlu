@@ -1,18 +1,18 @@
 # workshop-nlu
 
 ### Serviços utilizados:
-* [Watson Natural Language Understanding](https://www.ibm.com/watson/services/natural-language-understanding/)
-* [Watson Knowledge Studio](https://www.ibm.com/watson/services/knowledge-studio/)
+* [Watson Natural Language Understanding](https://www.ibm.com/watson/services/natural-language-understanding/){:target="_blank"}
+* [Watson Knowledge Studio](https://www.ibm.com/watson/services/knowledge-studio/){:target="_blank"}
 * Aplicação Node-Red
 
 ### Deploy da aplicação usando Node-Red
 Nossa aplicação utiliza a plataforma Node-Red para orquestrar os serviços listados acima. Para realizar o deploy siga os passos:
 #### 1.Criar serviços:
-* Watson Natural Language Understanding -> [Crie aqui](https://console.bluemix.net/catalog/services/natural-language-understanding)
-* Node-Red -> [Crie aqui](https://console.bluemix.net/catalog/starters/node-red-starter)
+* Watson Natural Language Understanding -> [Crie aqui](https://console.bluemix.net/catalog/services/natural-language-understanding){:target="_blank"}
+* Node-Red -> [Crie aqui](https://console.bluemix.net/catalog/starters/node-red-starter){:target="_blank"}
 
 #### 2.Importar arquivo node-red.json na sua aplicação Node-Red:
-Copie o código deste [link](https://raw.githubusercontent.com/pedrohlcastro/workshop-nlu/master/node-red.json) e cole em clipboard:
+Copie o código deste [link](https://raw.githubusercontent.com/pedrohlcastro/workshop-nlu/master/node-red.json){:target="_blank"} e cole em clipboard:
 <br>
 <img src='https://raw.githubusercontent.com/pedrohlcastro/workshop-nlu/master/img/import.png'/>
 
@@ -27,14 +27,14 @@ Após importar o `node-red.json` você ira ver o seguinte fluxo:
 <img src='https://raw.githubusercontent.com/pedrohlcastro/workshop-nlu/master/img/pagina.png' />
 
 #### 5. Gerando seu Custom Model ID:
-* Crie o serviço Watson Knowledge Studio -> [Crie Aqui](https://console.bluemix.net/catalog/services/knowledge-studio)
+* Crie o serviço Watson Knowledge Studio -> [Crie Aqui](https://console.bluemix.net/catalog/services/knowledge-studio){:target="_blank"}
 * Treine seu modelo usando os arquivos dentro da pasta `Treinamento WKS/`.
 * Faça o deploy do modelo.
 * Copie seu ID e cole no campo de `Custom Model Id` da aplicação.
 
 
 ### Aprendendo WKS e ligando com NLU
-Você pode utilizar o seguinte link para aprender ou repetir o processo feito durante o workshop [Clique aqui](https://developer.ibm.com/tutorials/extracting-personal-data-from-unstructured-text-using-watson-knowledge-studio/).
+Você pode utilizar o seguinte link para aprender ou repetir o processo feito durante o workshop [Clique aqui](https://developer.ibm.com/tutorials/extracting-personal-data-from-unstructured-text-using-watson-knowledge-studio/){:target="_blank"}.
 
 Lembrando, que para acessar a lista de **serviços criados**, basta acessar a dashboard e localizar o serviço:
 * Clique na Logo da IBM Cloud, no canto superior esquerdo.
